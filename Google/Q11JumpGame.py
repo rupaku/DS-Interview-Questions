@@ -1,6 +1,10 @@
 '''
 https://leetcode.com/problems/jump-game/solution/
 https://www.youtube.com/watch?v=muDPTDrpS28
+find maximum index of reachable
+start with 0th index , maxjump as its list value, maintain jump index.
+If jump points to 0, thats the maximum reachable index.
+If pointer crosses max reachble return False
 '''
 
 class Solution:

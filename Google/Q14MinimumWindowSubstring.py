@@ -1,5 +1,10 @@
 '''
 https://leetcode.com/problems/minimum-window-substring/
+-- formed -> num of unique alphabets
+create filtered list with char which are part of t with index,
+start with l and r as 0 index , check in filtered list with t, increment r till we get all string of t in one window, keeping l as 0.
+now move l -> repeat until we get smallest window expand r and contract l to include all t in window with smallest frame.
+
 '''
 
 from collections import Counter

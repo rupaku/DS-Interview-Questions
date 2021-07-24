@@ -1,5 +1,8 @@
 '''
 https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
+l,r as 0increment r till we get 2 distinct alphabet, maintain hashmap with character as its index .
+If hashmmap has more than 2 keys, remove oldest key with value and increment l.
+expand window till distinct number we have as 2.
 '''
 
 from typing import DefaultDict

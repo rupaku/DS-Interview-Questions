@@ -1,5 +1,8 @@
 '''
 https://leetcode.com/explore/interview/card/google/59/array-and-strings/3051/
+create list with string and int mapping
+create conversion function
+for every string find its value in list , multply it with 10^ length of string-its index in string -1, in loop
 '''
 
 class Solution:
