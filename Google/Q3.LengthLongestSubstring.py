@@ -8,13 +8,13 @@ class Solution:
         max_length=0
         mp={}
         start=0
-        for j in range(n):
+        for i in range(n):
             #if existing key
-            if s[j] in mp:
-                start=max(mp[s[j]],start)
-            
-            #If new key, add to dictionary
-            max_length =max(max_length,j-start+1)
-            mp[s[j]] = j+1
+            if s[i] in mp and start <= mp[s[i]]:
+                start = mp[s[i]]+1
+            else:
+                max_length =max(max_length,i-start+1)
+            mp[s[i]] =i
         return max_length
+                
                 
