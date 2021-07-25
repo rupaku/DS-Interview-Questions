@@ -1,4 +1,6 @@
 '''
+https://leetcode.com/explore/interview/card/google/59/array-and-strings/341/
+https://www.youtube.com/watch?v=C8UjlJZsHBw
 At one block -> min(max-left,max-right)- current height , repeat and get sum of all block result
 min(leftmax,rightmax) -current block
 '''
