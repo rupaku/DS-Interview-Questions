@@ -1,5 +1,8 @@
 '''
 https://leetcode.com/explore/interview/card/google/59/array-and-strings/3056/
+convert Source and queries with string and count( using counter)
+
+check each char and its count with query, if matches True else false
 '''
 class Solution:
     def word_to_tuple(self,word):
