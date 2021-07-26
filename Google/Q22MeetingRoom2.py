@@ -1,5 +1,6 @@
 '''
 https://leetcode.com/explore/interview/card/google/59/array-and-strings/3059/
+https://www.youtube.com/watch?v=FdzJmTCVyJU
 
 sorted array of start and end
 compare all start index with end1 index, if s < e, c++
