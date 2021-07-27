@@ -1,5 +1,5 @@
 '''
-https://leetcode.com/explore/interview/card/google/59/array-and-strings/436/
+
 '''
 # The read4 API is already defined for you.
 # def read4(buf4: List[str]) -> int:
