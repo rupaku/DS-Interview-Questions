@@ -1,6 +1,8 @@
 '''
 https://leetcode.com/problems/word-search/
 https://www.youtube.com/watch?v=X0kX7PMOYi0
+check if first char matches on board, then check in all 4 directions
+If next word matches mark it as visited. backtrack and mark it as visited as False
 '''
 class Solution:
     def search(self, i, j, idx):

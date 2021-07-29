@@ -1,6 +1,10 @@
 '''
 https://leetcode.com/problems/merge-intervals/submissions/
 https://www.youtube.com/watch?v=iT9_MU2L3H0
+sort intervals
+output list with 0th index
+check start > prev end of output -> insert in output
+else: prev end output = end of current interval
 '''
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:

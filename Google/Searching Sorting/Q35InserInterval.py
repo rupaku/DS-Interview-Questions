@@ -5,6 +5,10 @@ output[-1][1] -> previous end
 
 intervals = [[1,2],[3,5],[6,7],[8,10],[12,16]]
 newInterval = [4,8]
+
+insert all intervals less than new interval start
+now append new interval with overlapping
+add next interval
 '''
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:

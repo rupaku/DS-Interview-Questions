@@ -1,5 +1,6 @@
 '''
 https://leetcode.com/problems/peak-index-in-a-mountain-array/solution/
+use binary search , if arr[mid] < arr [mid+1] -> ignore left part h=mid
 '''
 class Solution:
     def peakIndexInMountainArray(self, arr: List[int]) -> int:

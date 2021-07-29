@@ -1,6 +1,9 @@
 '''
 https://leetcode.com/explore/interview/card/google/62/recursion-4/370/
 https://www.youtube.com/watch?v=YTQjsPiMtRk
+for each word create prefix hash table and backtrack on it
+while backtracking -> call getWordsWithPrefix - search in hashtable with that prefix , again backtrack
+
 '''
 class Solution:
     def wordSquares(self, words: List[str]) -> List[List[str]]:

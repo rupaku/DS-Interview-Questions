@@ -1,5 +1,8 @@
 '''
 https://leetcode.com/explore/interview/card/google/63/sorting-and-searching-4/3080/
+
+merge two arrays in sorted order, find mid.
+if len(array) % 2 == 0 i.e even -> array[m]+arr[m+1]//2 else array[m]
 '''
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
