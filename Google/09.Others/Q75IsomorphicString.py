@@ -1,5 +1,7 @@
 '''
 https://leetcode.com/problems/isomorphic-strings/submissions/
+https://www.youtube.com/watch?v=DVgseUp0qOY
+assign to dictionary with each key and value pair,if same pair comes isomorphic
 '''
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
