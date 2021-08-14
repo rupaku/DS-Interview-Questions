@@ -1,5 +1,6 @@
 '''
 https://leetcode.com/problems/longest-common-prefix/submissions/
+find minimum length string ,iterate over it and find ith unique char, if its len(ch) == 1, increment prefix 
 '''
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:

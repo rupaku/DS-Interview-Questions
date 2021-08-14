@@ -3,8 +3,8 @@ https://leetcode.com/explore/learn/card/array-and-string/202/introduction-to-2d-
 '''
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
-        m = len(matrix)
-        n = len(matrix[0])
+        m = len(matrix) #row
+        n = len(matrix[0]) #col
         left = 0 
         right = n-1
         down  = m-1
