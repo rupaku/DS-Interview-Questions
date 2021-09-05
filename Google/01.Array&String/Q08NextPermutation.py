@@ -1,4 +1,5 @@
 '''
+https://leetcode.com/problems/next-permutation/
 https://www.youtube.com/watch?v=6qXO72FkqwM
 swap least weightage peak with nearest to left, then sort digits after right of swap
 '''

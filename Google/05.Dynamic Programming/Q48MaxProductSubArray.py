@@ -1,7 +1,7 @@
 '''
 https://leetcode.com/problems/maximum-product-subarray/submissions/
 
-start with index 0 as max_so_far and max_so_far
+start with index 0 as max_so_far and min_so_far
 
 find max(curr, max_so_far*curr, min_so_far*curr)
 min(curr, max_so_far*curr, min_so_far*curr)
