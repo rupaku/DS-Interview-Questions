@@ -25,7 +25,7 @@ def sortedSquaredArray(array):
 		if abs(smallervalue) > abs(largervalue):
 			sortedSq[idx]= smallervalue * smallervalue
 			smallervalueInx = smallervalueInx + 1
-		else:
+		else: 
 			sortedSq[idx]= largervalue * largervalue
 			largervalueIdx = largervalueIdx - 1
     return sortedSq
