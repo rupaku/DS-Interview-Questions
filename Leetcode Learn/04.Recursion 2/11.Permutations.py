@@ -15,7 +15,7 @@ class Solution:
                 nums[first],nums[i]=nums[i],nums[first]
                 
         n=len(nums)
-        output=[]
+        output=[] 
         backtrack()
         return output
         
