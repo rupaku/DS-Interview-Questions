@@ -1,5 +1,7 @@
 '''
 https://leetcode.com/problems/moving-average-from-data-stream/submissions/
+time  O(1)
+space O(n)
 '''
 class MovingAverage:
 
