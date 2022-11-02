@@ -9,4 +9,4 @@ class Solution:
                 count=count+1
             n=n>>1
         return count
-        
+         
