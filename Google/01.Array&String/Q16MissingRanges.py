@@ -9,14 +9,13 @@ class Solution:
     def findMissingRanges(self, nums: List[int], lower: int, upper: int) -> List[str]:
         def formatRange(lower,upper):
             if lower == upper:
-                return str(lower)
-            return str(lower) + "->"+str(upper)
+                return [lower,lower]
+            return [lower ,upper]
         
         res=[]
         prev =lower-1
         for i in range(len(nums)+1):
             curr = nums[i] if i < len(nums) else upper + 1
-            #if lower is within range
             if prev + 1 <= curr -1:
                 res.append(formatRange(prev+1,curr-1))
             prev = curr
