@@ -48,7 +48,9 @@ class Codec:
             return root
 
         data_list = data.split(',')
-        root = rdeserialize(data_list)
+        root = rdeserialize(
+            
+        )
         return root
         
 

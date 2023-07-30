@@ -18,7 +18,7 @@ class Solution:
             
             if profit > max_profit:
                 max_profit=profit
-                
+                 
             if buy > prices[i]:
                 buy = prices[i]
                 

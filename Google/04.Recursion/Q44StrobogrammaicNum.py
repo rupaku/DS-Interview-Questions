@@ -21,10 +21,11 @@ class Solution:
                     if index < n-index or self.mapping[i] == int(so_far[n-index-1]):
                         recursion(index+1, so_far + str(i))
                     
+                    
         self.res=[]
         self.center_candidates={0,1,8}
         self.mapping ={0:0,1:1,6:9,9:6,8:8}
-        recursion(0,'')
+        recursion(0,'') 
         return self.res
         
         

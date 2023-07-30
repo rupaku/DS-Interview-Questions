@@ -12,6 +12,7 @@ class Solution:
             graph[~j].append((i,j))
             
         visited=set()
+        
         groups=0
         
         for i,j in stones:

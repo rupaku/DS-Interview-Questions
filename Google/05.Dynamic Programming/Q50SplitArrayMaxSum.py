@@ -25,7 +25,7 @@ class Solution(object):
         r = 0
         for num in nums:
             r += num
-            l = max(l, num)
+            l = max(l, num)  
         while l < r:
             guess = l + (r-l)//2
             if is_possible(nums, guess, m):

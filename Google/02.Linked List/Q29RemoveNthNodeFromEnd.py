@@ -20,4 +20,4 @@ class Solution:
         else:
             p.next=p.next.next
             return head
-        
+         

@@ -8,3 +8,4 @@ class Solution:
             for j in range(1,i+1):
                 dp[i] += dp[j-1] * dp[i-j]
         return dp[n]
+        

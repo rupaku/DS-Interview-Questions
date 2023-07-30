@@ -18,5 +18,7 @@ class Solution:
             curr = nums[i] if i < len(nums) else upper + 1
             if prev + 1 <= curr -1:
                 res.append(formatRange(prev+1,curr-1))
-            prev = curr
+            prev = curr 
         return res
+ 
+ 

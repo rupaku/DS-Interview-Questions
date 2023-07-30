@@ -19,7 +19,7 @@ class Solution:
             if start[s] < end[e]:
                 s=s+1
                 count = count+1
-            else:
+            else: 
                 e = e+1
                 count=count -1
             res= max(res,count)

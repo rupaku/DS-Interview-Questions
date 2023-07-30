@@ -47,3 +47,4 @@ class Solution:
                 
         return topo_sorted_order[::-1] if is_possible else []
         
+        

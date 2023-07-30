@@ -61,3 +61,4 @@ class Solution:
         return (2**d -1) +left
             
         
+        

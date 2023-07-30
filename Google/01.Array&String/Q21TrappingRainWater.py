@@ -24,6 +24,6 @@ class Solution:
                 if height[r] > max_r:
                     max_r = height[r]
                 else:
-                    areas += max_r - height[r]
+                    areas += max_r - height[r] 
                 r -=1
         return areas

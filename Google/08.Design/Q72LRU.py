@@ -18,6 +18,7 @@ class LRUCache:
         self.cache.remove(key)
         self.cache.append(key)
         return self.map[key]
+        
 
     def put(self, key: int, value: int) -> None:
         if key in self.map:

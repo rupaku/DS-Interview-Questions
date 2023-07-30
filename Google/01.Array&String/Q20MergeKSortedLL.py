@@ -20,7 +20,7 @@ class Solution:
     def mergeTwoLists(self,l1,l2):
         head=point=ListNode(0)
         while l1 and l2:
-            if l1.val < l2.val:
+            if l1.val < l2.val: 
                 point.next =l1
                 l1=l1.next
             else:

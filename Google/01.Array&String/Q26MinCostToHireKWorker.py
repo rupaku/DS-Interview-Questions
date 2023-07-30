@@ -16,6 +16,7 @@ class Solution:
             factor = Fraction(wage[captain], quality[captain])
             prices = []
             for worker in range(N):
+                
                 price = factor * quality[worker]
                 if price < wage[worker]: continue
                 prices.append(price)

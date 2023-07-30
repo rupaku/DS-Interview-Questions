@@ -36,6 +36,7 @@ class Solution:
     
     def getWordsWithPrefix(self,prefix):
         if prefix in self.prefixHashTable:
+            
             return self.prefixHashTable[prefix]
         else:
             return set([])

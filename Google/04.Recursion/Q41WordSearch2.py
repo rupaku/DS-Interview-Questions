@@ -58,6 +58,7 @@ class Solution:
         for row in range(rowNum):
             for col in range(colNum):
                 # starting from each of the cells
+                
                 if board[row][col] in trie:
                     backtracking(row, col, trie)
         

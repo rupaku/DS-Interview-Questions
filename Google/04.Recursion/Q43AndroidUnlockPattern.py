@@ -31,3 +31,8 @@ class Solution:
         return sum(dfs(1,k)*4 + dfs(2,k)*4 + dfs(5,k) for k in range(m-1, n))
         
         
+
+
+
+
+        
