@@ -6,16 +6,16 @@ class Solution:
         color=image[sr][sc]
         if color == newColor:
             return image
-        def dfs(r,c):
-            if image[r][c] == color:
-                image[r][c] = newColor
-                if r >= 1:
-                    dfs(r-1,c)
-                if r+1 < R:
-                    dfs(r+1,c)
-                if c >= 1:
-                    dfs(r,c-1)
-                if c+1 < C:
-                    dfs(r,c+1)
+        def dfs(sr,sc):
+            if image[sr][sc] == color:
+                image[sr][sc] = newColor
+                if sr >= 1:
+                    dfs(sr-1,sc)
+                if sr+1 < R:
+                    dfs(sr+1,sc)
+                if sc >= 1:
+                    dfs(sr,sc-1)
+                if sc+1 < C: 
+                    dfs(sr,sc+1)
         dfs(sr,sc)
         return image
