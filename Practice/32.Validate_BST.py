@@ -23,3 +23,5 @@ class Solution:
                    validate(node.left, low, node.val))
 
         return validate(root)
+    
+    
