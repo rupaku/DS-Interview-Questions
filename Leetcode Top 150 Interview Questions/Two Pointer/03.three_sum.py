@@ -10,12 +10,14 @@ class Solution:
             target=0-nums[i]
             while low < high:
                 num=nums[low]+nums[high]
-                if num == target:
-                    res.add((nums[i],nums[low],nums[high]))
+                if target == num:
+                    res.add(nums[0],nums[low],nums[high])
                     low=low+1
                     high=high-1
-                elif num < target:
+                elif target < num:
                     low=low+1
                 else:
                     high=high-1
         return list(res)
+    
+    
