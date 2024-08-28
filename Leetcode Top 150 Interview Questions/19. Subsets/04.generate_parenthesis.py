@@ -1,4 +1,4 @@
-# leetcode.com/problems/generate-parentheses/
+# https://leetcode.com/problems/generate-parentheses/description/
 
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
